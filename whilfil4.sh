@@ -4,7 +4,10 @@ read name
 count=1
 while read line
 do
-	output=`echo "$line" | wc -c`
-	echo "this is kavana printing the character count of $count line $output"
+	if [ $count -eq 4 ]
+	then
+		echo "this is kavana printing line by line"
+       		 echo "$line"
+	fi
 	count=`expr $count + 1`
 done < $name
