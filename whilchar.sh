@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "testing git"
+echo "testing3"
 echo "enter the file name"
 read name
 count=1
