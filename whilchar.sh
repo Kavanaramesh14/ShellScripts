@@ -2,6 +2,7 @@
 echo "testing git"
 echo "testing3"
 echo "keep testing"
+echo "ver9"
 echo "enter the file name"
 read name
 count=1
