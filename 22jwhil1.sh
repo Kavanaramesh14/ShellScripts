@@ -1,4 +1,5 @@
 #!/bin/bash
+ls
 echo "enter the number to find the factorial"
 read num
 result=1
